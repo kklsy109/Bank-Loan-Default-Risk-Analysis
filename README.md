@@ -78,8 +78,16 @@ In addition, I continue to check whether there are columns in the application da
 
 
 ![](https://github.com/kklsy109/Bank-Loan-Default-Risk-Analysis/blob/main/Pictures/7.png)
+
+According to the above chart, it can be observed that only the majority of credit entries have submitted the FLAG_DOCUMENT_3 document. Therefore, it can be concluded that, except for this attribute, the remaining Flag attributes can be deleted, and I will handle them collectively in the subsequent drop operation.
+
 ![](https://github.com/kklsy109/Bank-Loan-Default-Risk-Analysis/blob/main/Pictures/8.png)
+
+From here, it can also be seen that these attributes involving personal information are irrelevant to the objective and will be droped in subsequent operations.
+
 ![](https://github.com/kklsy109/Bank-Loan-Default-Risk-Analysis/blob/main/Pictures/9.png)
+
+These EXT_SOURCE attributes are unrelated to the target and will be dropped in subsequent operations.
 
 Do the same analysis for Previous
 
@@ -90,6 +98,8 @@ Based on the analysis results, I will drop columns with missing values exceeding
 
 
 ![](https://github.com/kklsy109/Bank-Loan-Default-Risk-Analysis/blob/main/Pictures/10.png)
+
+These EXT_SOURCE attributes are unrelated to the target and will be dropped in subsequent operations.
 
 Do the same for Previous Data
 
